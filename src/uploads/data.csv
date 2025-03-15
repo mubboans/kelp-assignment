@@ -1,0 +1,4 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,extraColumn
+Mubashir,Ansari,35,A-563 Rakshak Society,BJ marg,Mumbai,Maharashtra,male,extra-column
+Aisha,Ansari,27,21 Maple Street,Kurla Kapadia Nagar,Mumbai,Delhi,female,extra-column
+Nafisa,Ansari,45,5th Avenue,Collaba Fort, Mumbai,NY,female,extra-column

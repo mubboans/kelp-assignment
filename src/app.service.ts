@@ -2,7 +2,28 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getApiHealth(): string {
+    return 'Api Working Fine!';
   }
+
+  parseCSVtoJSon() {
+
+  }
+
+  getUserRecords() {
+
+  }
+
+  createUserRecord() {
+
+  }
+
+  updateUserRecords() {
+
+  }
+
+  deleteUserRecords() {
+
+  }
+
 }

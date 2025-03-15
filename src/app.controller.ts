@@ -1,12 +1,13 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, HttpException, HttpStatus, Post } from '@nestjs/common';
 import { AppService } from './app.service';
 
-@Controller('csv')
+@Controller('life-check')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  apiLifeCheck(): string {
+      return this.appService.getApiHealth();
   }
+
 }

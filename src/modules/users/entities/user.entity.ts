@@ -6,14 +6,14 @@ export class User {
     id: number;
 
     @Column({ type: 'varchar', nullable: false })
-    name: string; 
+    name: string; // firstName + lastName
 
-    @Column({ type: 'int4', nullable: false })
+    @Column({ type: 'int', nullable: false })
     age: number;
 
     @Column({ type: 'jsonb', nullable: true })
-    address: any;
+    address: object;
 
     @Column({ type: 'jsonb', nullable: true })
-    additional_info: any; 
+    additional_info: object;
 }
